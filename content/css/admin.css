@@ -44,3 +44,24 @@ thead {
     padding: 10px 15px;
     background-color: var(--secondary-color);
 }
+#addNewVehicle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#addVehicle-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+#save {
+    width: 100px;
+}
+input[type=text] {
+    width: 400px;
+}
+.hidden {
+    display: none;
+}
