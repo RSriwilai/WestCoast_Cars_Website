@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 100%;
+    min-width: 600px;
+}
+th {
+    text-align: left;
+    padding: 10px 5px;
+}
+td {
+    padding: 5px;
+    border-bottom: 1px solid #f3f3f3;
+}
+thead {
+    background-color: var(--primary-color);
+    color: white;
+    
+}
+#admin-nav {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#admin-nav .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    align-items: center;
+}
+.scroll-container {
+    border: 1px solid #949292
+}
+.table-container {
+    overflow-x: scroll;
+}
+.pagination-header {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: var(--secondary-color);
+}

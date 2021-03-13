@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administerar bilar</title>
+    <script 
+        src="https://kit.fontawesome.com/734a53a685.js"
+         crossorigin="anonymous"
+     ></script>
+    <link rel="stylesheet" href="/content/css/styles.css">
+    <link rel="stylesheet" href="/content/css/admin.css">
+</head>
+<body>
+    <header>
+        <nav id="admin-nav">
+            <div class="container">
+                <ul>
+                    <li><i class="fal fa-arrow-alt-left"></i><a href="/Starter/index.html">Back to application</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Vehicle table-->
+    <main>
+        <section id="tableView" class="container">
+            <section class="scroll-container">
+                <div class="pagination-header">
+                    <div><input 
+                        id="search-input"
+                        type="text" 
+                        class="form-control"
+                        placeholder="type search string">
+                        <button class="btn" id="search-btn">Search</button>
+                    </div>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>RegNo</th>
+                                <th>Make</th>
+                                <th>Model</th>
+                                <th>Model year</th>
+                                <th>Mileage</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody id="vehicle-list"></tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="scripts/car-list.js"></script>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>

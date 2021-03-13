@@ -1,0 +1,16 @@
+
+#heading {
+  text-align: center;
+}
+
+#heading img {
+  width: 100%;
+  max-width: 800px;
+  border: solid 1px #a1a0a0;
+  background-color: #fff;
+  padding: 5px;
+}
+
+hr {
+  margin: 3rem 0;
+}
